@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!-- Edge 模式通知 Windows Internet Explorer 以最高级别的可用模式显示内容 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    
+    <title>网址导航</title>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../../static/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="../../static/dev-css/siteMap.css" />
+</head>
+<body>
+
+	<header class="container" style="margin-top: 15px;margin-bottom: 15px;">
+	    <img src="../../static/images/siteMap/title.png" >
+	
+	    <img src="../../static/images/siteMap/call.png" style="margin-left: 85px;">
+
+	    <!-- 滚动字幕,文字由JS动态写入id="marquee"的span -->
+		<div class="marquee-box">
+		  <span id="marquee"></span>
+		</div>
+	</header>
+
+    <img src="../../static/images/siteMap/banner.png" style="display: block; width:auto;margin: 0 50%;transform: translateX(-50%);">
+
+	<div class="container-fluid">
+		<div class="row">
+			<div id="leftContent" class="col-md-2">
+				<!-- <div class="left_content_text">仓储开放平台</div>
+				<div class="left_content_text">运输配送平台</div> -->
+			</div>
+
+			<div id="middleContent" class="col-md-8"></div>
+
+			<div class="col-md-2">
+	            <div class="right_content_header">
+	                最近浏览<img style="margin:-3px 0 0 3px" src="../../static/images/siteMap/history.png">
+	            </div>
+
+	            <div id="rightContent">
+					<!-- <div class="right_content_body">百度</div>
+					<div class="right_content_body">腾讯</div> -->
+	            </div>
+			</div>
+		</div>
+	</div>
+
+	<footer style="margin-top: 10px;margin-bottom: 10px; text-align:center; ">
+	    2016@LIVE TEAM power by vip.com 物流信息部 版权所有
+	</footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../../static/jquery/jquery-3.2.1.min.js"></script>
+    <script src="../../static/dev-js/siteMap.js"></script>
+</body>
+</html>
